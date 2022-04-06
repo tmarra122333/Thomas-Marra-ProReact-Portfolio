@@ -7,11 +7,11 @@ import {BiMessageDetail} from 'react-icons/bi'
 import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#"
-      className='active'><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
+      <a href="#" className= {activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className= {activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#portfolio"><RiServiceLine/></a>
       <a href="#contact"><BiMessageDetail/></a>
     </nav>
