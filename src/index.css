@@ -12,9 +12,9 @@
 
 :root {
     --color-bg: #000000;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg-variant: #01677e;
+    --color-primary: #34ADC8;
+    --color-primary-variant: #00708A(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -115,6 +115,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    /* height: 300px; */
 }
 
 /* ========Media Queries (Medium Devices Tablets) =========*/

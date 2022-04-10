@@ -95,8 +95,14 @@
 /* ========Media Queries (Small Devices Tablets) =========*/
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 35%;
         margin: 0 auto 3rem;
+        grid-template-columns: 1fr;
+    }
+
+    .about__me-img {
+        width: 35%;
+        grid-template-columns: 1fr;
     }
 
     .about__cards {
