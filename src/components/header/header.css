@@ -31,6 +31,8 @@ header {
     bottom: 3rem;
 }
 
+
+
 .header_socials::after {
     content:'';
     width: 1px;
@@ -38,6 +40,9 @@ header {
     background: var(--color-primary);
 }
 
+.boom {
+    font-size: 30px;
+}
 /*=========================me================*/
 
 .me {
