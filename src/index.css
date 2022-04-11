@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+/* fr (fractals) go center and make sure its even space 50% each side */
+/* rem is root elemt 1rm is 16 px 2rem is 32 so on */
+
+
 :root {
     --color-bg: #000000;
     --color-bg-variant: #01677e;

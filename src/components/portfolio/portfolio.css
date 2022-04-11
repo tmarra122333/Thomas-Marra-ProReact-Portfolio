@@ -1,8 +1,11 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);  
     gap: 2.5rem;
 }
+
+/* fr (fractals) go center and make sure its even space 50% each side */
+/* rem is root elemt 1rm is 16 px 2rem is 32 so on */
 
 .portfolio__item {
     background: var(--color-bg-variant);
