@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .contact__options {
@@ -52,8 +52,25 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-primary);
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 900;
     
 }
 
+/* ========Media Queries (Medium Devices Tablets) =========*/
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+    }
+
+}
+
+/* ========Media Queries (Small Devices Tablets) =========*/
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
+}
 
