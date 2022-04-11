@@ -32,7 +32,7 @@ const data = [
     image: IMG4,
     title: 'Cosmic Titan Music Studios',
     github: 'https://github.com/tmarra122333/Capstone_FrontEnd',
-    demo: 'https://pages.git.generalassemb.ly/tmarra122333/Blackjack-21/'
+    demo: 'https://6254b63e78406943e2947855--regal-jalebi-2aad42.netlify.app/'
   }
 ]
 
