@@ -14,10 +14,13 @@
         var(--color-primary),
         transparent
     );
-    display: grid;
+    display: flex;
+    justify-content: center;
     place-items: center;
     margin-bottom: 20px;
-    margin-left: 560px;
+    /* margin-left: 33rem; */
+    margin: 0 auto;
+   
 }
 
 .about__me-image {
@@ -95,7 +98,7 @@
 /* ========Media Queries (Small Devices Tablets) =========*/
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 35%;
+        width: 65%;
         margin: 0 auto 3rem;
         grid-template-columns: 1fr;
     }
