@@ -41,7 +41,7 @@ const About = () => {
              </div>
             
              <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aliquid odit perspiciatis facilis illo corrupti hic repellat illum amet ipsa doloribus est soluta. Corporis aliquam, neque totam ex incidunt eius.
+             I am a software engineer that graduated from General Assembly in March of 2022. My 10 years of previous experience in Federal Law Enforcement has taught me to be resilient and persistent in leadership. I pay great attention to detail and embrace challenges utilizing my acquired skills to problem solve in reactionary moments.
             </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

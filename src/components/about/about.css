@@ -17,9 +17,8 @@
     display: flex;
     justify-content: center;
     place-items: center;
-    margin-bottom: 20px;
-    /* margin-left: 33rem; */
     margin: 0 auto;
+    margin-bottom: 20px;
    
 }
 
